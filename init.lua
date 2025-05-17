@@ -254,6 +254,10 @@ require('lazy').setup({
     end,
     event = 'BufReadPre', -- 👈 Load plugin before reading a buffer
   },
+  {
+    'ThePrimeagen/vim-be-good',
+    cmd = 'VimBeGood', -- optional, lazy-loads the plugin only when the command is used
+  },
   -- NOTE: Plugins can also be added by using a table,
   -- with the first argument being the link and the following
   -- keys can be used to configure plugin behavior/loading/etc.
