@@ -709,6 +709,10 @@ require('lazy').setup({
             },
           },
         },
+        ts_ls = {},
+        volar = {
+          filetypes = { 'vue' },
+        },
       }
 
       -- Ensure the servers and tools above are installed
